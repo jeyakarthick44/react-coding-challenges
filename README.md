@@ -7,38 +7,8 @@ Interested in some React fundamentals / philosophies? Check out the [react-philo
 
 
 &nbsp;
-## Sponsored
-
-<img src="https://www.timetoestimate.com/favicon.png" width=50 /> [Time To Estimate](https://www.timetoestimate.com). A fun, simple way for agile teams to remotely estimate tasks together. Free, with no sign-up required.
-
-<img src="https://www.mixmello.com/favicon.png" width=50 /> [mixmello](https://www.mixmello.com). Create remixed versions of your favourite Spotify playlists.
-
-&nbsp;
-## The Challenges
-### Easy 🙂
-##### 🚀 [Rocket Ship](https://github.com/alexgurr/react-coding-challenges/tree/master/rocket-ship)
-Unnecessary re-renders, fine grained control.
-
-&nbsp;
-### Medium 😐
-##### 🌙 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode)
-State / shared state, DOM manipulation.
-
-##### 🐝 Coinbee ![soon](https://badgen.net/badge/status/coming%20soon/green?icon=)
-Data visualisation and graphing. API usage.
-
-&nbsp;
-### Hard 😬
-##### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify)
-Loading state, API usage.
-
 ##### 🤖 [Chatter](https://github.com/alexgurr/react-coding-challenges/tree/master/chatter)
 Web sockets, events, callbacks & React hooks. Talks to [Botty](https://github.com/alexgurr/botty).
-
-&nbsp;
-## Future Challenges ![later](https://badgen.net/badge/status/coming%20later/yellow?icon=)
-##### 🛒 shopit
-A product page with a shopping cart/checkout experience.
 
 &nbsp;
 ## What are the challenges for?
