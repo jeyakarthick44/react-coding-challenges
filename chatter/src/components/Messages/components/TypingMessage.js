@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useCallback } from 'react';
+
 
 export default function Typing() {
   const [numberOfDots, setDots] = useState(1);
 
-  const incrementDots = () => {
+  const incrementDots = useCallback(() => {
     setDots(numberOfDots === 3 ? 1 : numberOfDots + 1);
-  };
+  },[numberOfDots]);
 
   useEffect(() => {
     const timeout = setTimeout(incrementDots, 500);
@@ -13,7 +14,7 @@ export default function Typing() {
     return () => {
       clearTimeout(timeout);
     }
-  }, [numberOfDots]);
+  }, [numberOfDots,incrementDots]);
 
   return (
     <p

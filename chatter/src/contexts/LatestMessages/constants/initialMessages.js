@@ -1,6 +1,6 @@
 import INITIAL_BOTTY_MESSAGE from '../../../common/constants/initialBottyMessage';
 
-export default  {
+  let botMessages = {
   bot: INITIAL_BOTTY_MESSAGE,
   brandon: 'Hello there!',
   clayton: 'Yes of course. Thanks',
@@ -13,3 +13,5 @@ export default  {
   lottie: '728 Feeney Street.',
   augusta: 'I got the transfer! :D'
 };
+
+export default botMessages
